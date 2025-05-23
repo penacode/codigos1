@@ -1,5 +1,4 @@
 package Taf;
-import java.util.Scanner;
 public class TafCalculo {
     public static void main(String[] args) {
         NotaBarra.imprimeMencaoBarra();
