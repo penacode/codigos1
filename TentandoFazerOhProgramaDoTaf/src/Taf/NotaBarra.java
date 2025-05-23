@@ -2,6 +2,7 @@ package Taf;
 import java.util.Scanner;
 public class NotaBarra {
     static Scanner scanner = new Scanner(System.in);
+
     public static void imprimeMencaoBarra() {
 
         int idade;
@@ -14,6 +15,7 @@ public class NotaBarra {
         barras = scanner.nextInt();
         System.out.println("SEXO: ");
         sexo = scanner.nextInt();
+
         if (sexo == 1) {
             if (idade <= 21 && barras <= 4) {
                 System.out.println("I");
@@ -40,7 +42,7 @@ public class NotaBarra {
             }
             if ((idade >= 26 && idade <= 29) && barras <= 5) {
                 System.out.println("I");
-            } else if ((idade >= 26 && idade <= 29) && barras <= 4) {
+            } else if ((idade >= 26 && idade <= 29) && barras <= 7) {
                 System.out.println("R");
             } else if ((idade >= 26 && idade <= 29) && barras <= 9) {
                 System.out.println("B");
@@ -85,7 +87,8 @@ public class NotaBarra {
             if (idade > 40 && barras > 2) {
                 System.out.println("APTO");
             }
-        if(sexo == 2){
+        }
+        if (sexo == 2) {
             if ((idade >= 18 && idade <= 21) && barras == 0) {
                 System.out.println("I");
             } else if ((idade >= 18 && idade <= 21) && barras <= 2) {
@@ -152,11 +155,9 @@ public class NotaBarra {
             } else if ((idade >= 38 && idade <= 39) && barras > 5) {
                 System.out.println("E");
             }
-            if(idade >= 40 && barras > 45){
+            if (idade >= 40 && barras > 45) {
                 System.out.println("APTO");
             }
-        }
-
         }
     }
 }

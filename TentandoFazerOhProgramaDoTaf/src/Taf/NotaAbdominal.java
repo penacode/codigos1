@@ -36,7 +36,7 @@ public class NotaAbdominal {
                 System.out.println("B");
             } else if ((idade >= 22 && idade <= 25)  && abd <= 78) {
                 System.out.println("MB");
-            } else if ((idade >= 22 && idade <= 25) && abd >= 79) {
+            } else if ((idade >= 22 && idade <= 25) && abd > 79) {
                 System.out.println("E");
             }
             if ((idade >= 26 && idade <= 29)  && abd <= 37) {

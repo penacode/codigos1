@@ -23,7 +23,7 @@ public class NotaCorrida {
                 System.out.println("B");
             } else if (idade <= 21 && metros < 3200) {
                 System.out.println("MB");
-            } else if (idade <= 21 && metros >= 3200) {
+            } else if (idade <= 21 && metros > 3200) {
                 System.out.println("E");
             }
             if ((idade >= 22 && idade <= 25) && metros <= 2700) {
@@ -106,54 +106,56 @@ public class NotaCorrida {
             if (idade > 50 && metros > 1900) {
                 System.out.println("APTO");
             }
-            if (sexo == 2) {
-                if ((idade >= 18 && idade <= 21) && metros <= 2100) {
-                    System.out.println("I");
-                } else if ((idade >= 18 && idade <= 21) && metros < 2200) {
-                    System.out.println("R");
-                } else if ((idade >= 18 && idade <= 21) && metros < 2450) {
-                    System.out.println("B");
-                } else if ((idade >= 18 && idade <= 21) && metros < 2600) {
-                    System.out.println("MB");
-                } else if ((idade >= 18 && idade <= 21) && metros >= 2650) {
-                    System.out.println("E");
-                }
-                if ((idade >= 22 && idade <= 25) && metros <= 2150) {
-                    System.out.println("I");
-                } else if ((idade >= 22 && idade <= 25) && metros < 2250) {
-                    System.out.println("R");
-                } else if ((idade >= 22 && idade <= 25) && metros < 2450) {
-                    System.out.println("B");
-                } else if ((idade >= 22 && idade <= 25) && metros < 2650) {
-                    System.out.println("MB");
-                } else if ((idade >= 22 && idade <= 25) && metros >= 2700) {
-                    System.out.println("E");
-                }
-                if ((idade >= 26 && idade <= 29) && metros <= 2100) {
-                    System.out.println("I");
-                } else if ((idade >= 26 && idade <= 29) && metros < 2200) {
-                    System.out.println("R");
-                } else if ((idade >= 26 && idade <= 29) && metros < 2450) {
-                    System.out.println("B");
-                } else if ((idade >= 26 && idade <= 29) && metros < 2600) {
-                    System.out.println("MB");
-                } else if ((idade >= 26 && idade <= 29) && metros >= 2650) {
-                    System.out.println("E");
-                }
-                if ((idade >= 30 && idade <= 33) && metros <= 2050) {
-                    System.out.println("I");
-                } else if ((idade >= 30 && idade <= 33) && metros < 2150) {
-                    System.out.println("R");
-                } else if ((idade >= 30 && idade <= 33) && metros < 2350) {
-                    System.out.println("B");
-                } else if ((idade >= 30 && idade <= 33) && metros < 2550) {
-                    System.out.println("MB");
-                } else if ((idade >= 30 && idade <= 33) && metros >= 2600) {
-                    System.out.println("E");
-                }
+        }
+        if (sexo == 2) {
+            if ((idade >= 18 && idade <= 21) && metros <= 2100) {
+                System.out.println("I");
+            } else if ((idade >= 18 && idade <= 21) && metros < 2200) {
+                System.out.println("R");
+            } else if ((idade >= 18 && idade <= 21) && metros < 2450) {
+                System.out.println("B");
+            } else if ((idade >= 18 && idade <= 21) && metros < 2600) {
+                System.out.println("MB");
+            } else if ((idade >= 18 && idade <= 21) && metros >= 2650) {
+                System.out.println("E");
             }
-
+            if ((idade >= 22 && idade <= 25) && metros <= 2150) {
+                System.out.println("I");
+            } else if ((idade >= 22 && idade <= 25) && metros < 2250) {
+                System.out.println("R");
+            } else if ((idade >= 22 && idade <= 25) && metros < 2450) {
+                System.out.println("B");
+            } else if ((idade >= 22 && idade <= 25) && metros < 2650) {
+                System.out.println("MB");
+            } else if ((idade >= 22 && idade <= 25) && metros >= 2700) {
+                System.out.println("E");
+            }
+            if ((idade >= 26 && idade <= 29) && metros <= 2100) {
+                System.out.println("I");
+            } else if ((idade >= 26 && idade <= 29) && metros < 2200) {
+                System.out.println("R");
+            } else if ((idade >= 26 && idade <= 29) && metros < 2450) {
+                System.out.println("B");
+            } else if ((idade >= 26 && idade <= 29) && metros < 2600) {
+                System.out.println("MB");
+            } else if ((idade >= 26 && idade <= 29) && metros >= 2650) {
+                System.out.println("E");
+            }
+            if ((idade >= 30 && idade <= 33) && metros <= 2050) {
+                System.out.println("I");
+            } else if ((idade >= 30 && idade <= 33) && metros < 2150) {
+                System.out.println("R");
+            } else if ((idade >= 30 && idade <= 33) && metros < 2350) {
+                System.out.println("B");
+            } else if ((idade >= 30 && idade <= 33) && metros < 2550) {
+                System.out.println("MB");
+            } else if ((idade >= 30 && idade <= 33) && metros >= 2600) {
+                System.out.println("E");
+            }
         }
     }
-    }
+}
+
+
+
 

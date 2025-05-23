@@ -23,7 +23,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if (idade <= 21 && flexoes <= 38) {
                 System.out.println("MB");
-            } else if (idade <= 21 && flexoes >= 39) {
+            } else if (idade <= 21 && flexoes > 39) {
                 System.out.println("E");
             }
             if ((idade >= 22 && idade <= 25) && flexoes <= 23) {
@@ -34,7 +34,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if ((idade >= 22 && idade <= 25) && flexoes <= 40) {
                 System.out.println("MB");
-            } else if ((idade >= 22 && idade <= 25) && flexoes >= 41) {
+            } else if ((idade >= 22 && idade <= 25) && flexoes > 41) {
                 System.out.println("E");
             }
             if ((idade >= 26 && idade <= 29) && flexoes <= 21) {
@@ -45,7 +45,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if ((idade >= 26 && idade <= 29) && flexoes <= 38) {
                 System.out.println("MB");
-            } else if ((idade >= 26 && idade <= 29) && flexoes >= 39) {
+            } else if ((idade >= 26 && idade <= 29) && flexoes > 39) {
                 System.out.println("E");
             }
             if ((idade >= 30 && idade <= 33) && flexoes <= 20) {
@@ -56,7 +56,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if ((idade >= 30 && idade <= 33) && flexoes <= 36) {
                 System.out.println("MB");
-            } else if ((idade >= 30 && idade <= 33) && flexoes >= 37) {
+            } else if ((idade >= 30 && idade <= 33) && flexoes > 37) {
                 System.out.println("E");
             }
             if ((idade >= 34 && idade <= 37) && flexoes <= 17) {
@@ -67,7 +67,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if ((idade >= 34 && idade <= 37) && flexoes <= 33) {
                 System.out.println("MB");
-            } else if ((idade >= 34 && idade <= 37) && flexoes >= 34) {
+            } else if ((idade >= 34 && idade <= 37) && flexoes > 34) {
                 System.out.println("E");
             }
             if ((idade >= 38 && idade <= 41) && flexoes <= 16) {
@@ -78,7 +78,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if ((idade >= 38 && idade <= 41) && flexoes <= 31) {
                 System.out.println("MB");
-            } else if ((idade >= 38 && idade <= 41) && flexoes >= 32) {
+            } else if ((idade >= 38 && idade <= 41) && flexoes > 32) {
                 System.out.println("E");
             }
             if ((idade >= 42 && idade <= 45) && flexoes <= 14) {
@@ -116,7 +116,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if (idade <= 21 && flexoes <= 19) {
                 System.out.println("MB");
-            } else if (idade <= 21 && flexoes >= 20) {
+            } else if (idade <= 21 && flexoes > 20) {
                 System.out.println("E");
             }
             if ((idade >= 22 && idade <= 25) && flexoes <= 11) {
@@ -127,7 +127,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if ((idade >= 22 && idade <= 25) && flexoes <= 21) {
                 System.out.println("MB");
-            } else if ((idade >= 22 && idade <= 25) && flexoes >= 22) {
+            } else if ((idade >= 22 && idade <= 25) && flexoes > 22) {
                 System.out.println("E");
             }
             if ((idade >= 26 && idade <= 29) && flexoes <= 10) {
@@ -138,7 +138,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if ((idade >= 26 && idade <= 29) && flexoes <= 19) {
                 System.out.println("MB");
-            } else if ((idade >= 26 && idade <= 29) && flexoes >= 20) {
+            } else if ((idade >= 26 && idade <= 29) && flexoes > 20) {
                 System.out.println("E");
             }
             if ((idade >= 30 && idade <= 33) && flexoes <= 9) {
@@ -149,7 +149,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if ((idade >= 30 && idade <= 33) && flexoes <= 18) {
                 System.out.println("MB");
-            } else if ((idade >= 30 && idade <= 33) && flexoes >= 19) {
+            } else if ((idade >= 30 && idade <= 33) && flexoes > 19) {
                 System.out.println("E");
             }
             if ((idade >= 34 && idade <= 37) && flexoes <= 8) {
@@ -160,7 +160,7 @@ public class NotaFlexao {
                 System.out.println("B");
             } else if ((idade >= 34 && idade <= 37) && flexoes <= 17) {
                 System.out.println("MB");
-            } else if ((idade >= 34 && idade <= 37) && flexoes >= 18) {
+            } else if ((idade >= 34 && idade <= 37) && flexoes > 18) {
                 System.out.println("E");
             }
             if ((idade >= 38 && idade <= 41) && flexoes <= 7) {
